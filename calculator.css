@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    width: 50px;
+    margin: 5px;
+}
+div .number {
+    border: 1px solid green;
+}
+.number:hover {
+    background-color: lightgreen;
+}
+div .operator {
+    border: 1px solid blue;
+}
+.operator:hover{ 
+    background-color: lightblue;
+}
+div .clear, .equel, .decimal {
+    border: 1px solid red;
+}
+.clear:hover, .equel:hover, .decimal:hover {
+    background-color: lightgoldenrodyellow;
+}
+.clear-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.screen {
+    width: 183px;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 5px;
+}
+.previous{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.current {
+    font-size: 16px;
+    margin-right: 5px;
+}
