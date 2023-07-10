@@ -23,10 +23,10 @@ div .operator {
 .operator:hover{ 
     background-color: lightblue;
 }
-div .clear, .equel, .decimal {
+div .clear, .equal, .decimal {
     border: 1px solid red;
 }
-.clear:hover, .equel:hover, .decimal:hover {
+.clear:hover, .equal:hover, .decimal:hover {
     background-color: lightgoldenrodyellow;
 }
 .clear-row {
